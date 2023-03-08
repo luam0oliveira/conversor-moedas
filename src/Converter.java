@@ -15,12 +15,12 @@ public class Converter extends JFrame {
 
             @Override
             public void windowClosing(WindowEvent windowEvent) {
-
             }
 
             @Override
             public void windowClosed(WindowEvent windowEvent) {
                 new ConverterMenu();
+
             }
 
             @Override

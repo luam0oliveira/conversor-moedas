@@ -6,7 +6,7 @@ public class ConverterMenu extends JFrame{
     private JPanel mainPanel;
 
     public ConverterMenu() {
-        cbConversors.addItem(new ConverterTemperatura());
+        cbConversors.addItem(new ConverterTemperature());
         mainPanel.setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(mainPanel);
