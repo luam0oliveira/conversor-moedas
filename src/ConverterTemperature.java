@@ -19,9 +19,8 @@ public class ConverterTemperature extends Converter {
 
     public ConverterTemperature(String title) {
         super(title);
-        TemperatureEnum[] temperatures = TemperatureEnum.values();
         for (TemperatureEnum temperature:
-             temperatures) {
+             TemperatureEnum.values()) {
             cbFromType.addItem(temperature);
             cbToType.addItem(temperature);
         }
@@ -43,7 +42,13 @@ public class ConverterTemperature extends Converter {
 
     public void calculate() {
         Double output = 0.0;
-        Double input = Double.parseDouble(tfValueOne.getText());
+        Double input;
+        try {
+            input = Double.parseDouble(tfValueOne.getText());
+        }catch (RuntimeException ex) {
+            JOptionPane.showMessageDialog(null, "Por favor, digite um valor válido!");
+            return;
+        }
 
         if(cbFromType.getSelectedItem().equals(cbToType.getSelectedItem())){
             output = Double.parseDouble(tfValueOne.getText());

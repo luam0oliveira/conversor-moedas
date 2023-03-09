@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
@@ -7,6 +8,10 @@ public class Converter extends JFrame {
 
     public Converter(String title) {
         this.title = title;
+
+        setSize(new Dimension(400, 200));
+        setResizable(false);
+
         addWindowListener(new WindowListener() {
             @Override
             public void windowOpened(WindowEvent windowEvent) {
