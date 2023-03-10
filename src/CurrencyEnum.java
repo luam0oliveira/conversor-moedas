@@ -2,9 +2,9 @@ public enum CurrencyEnum {
     REAL("Real"),
     EURO("Euro"),
     DOLAR("Dolar"),
-    LIBRA("Libra"),
-    YEN("Yen"),
-    WON_COREANO("Won Coreano");
+    LIBRA("Libra Esterlina"),
+    PESO_ARGENTINO("Peso Argentino"),
+    PESO_CHILENO("Peso Chileno");
 
     private String currency;
     CurrencyEnum(String currency) {

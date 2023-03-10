@@ -54,10 +54,10 @@ public class ConverterCurrency extends Converter{
                 output = input * 0.19456501;
             }else if(cbToType.getSelectedItem() == CurrencyEnum.LIBRA) {
                 output = input * 0.16308199;
-            }else if(cbToType.getSelectedItem() == CurrencyEnum.YEN) {
-                output = input * 26.492881;
+            }else if(cbToType.getSelectedItem() == CurrencyEnum.PESO_ARGENTINO) {
+                output = input * 38.713134;
             }else {
-                output = input * 257.17976;
+                output = input * 153.69487;
             }
         } else if(cbFromType.getSelectedItem() == CurrencyEnum.EURO) {
             if (cbToType.getSelectedItem() == CurrencyEnum.REAL) {
@@ -66,10 +66,10 @@ public class ConverterCurrency extends Converter{
                 output = input * 1.0580281;
             } else if (cbToType.getSelectedItem() == CurrencyEnum.LIBRA) {
                 output = input * 0.88715297;
-            } else if (cbToType.getSelectedItem() == CurrencyEnum.YEN) {
-                output = input * 144.10891;
+            } else if (cbToType.getSelectedItem() == CurrencyEnum.PESO_ARGENTINO) {
+                output = input * 213.79302;
             } else {
-                output = input * 1398.7773;
+                output = input * 848.8106;
             }
         } else if(cbFromType.getSelectedItem() == CurrencyEnum.DOLAR) {
             if (cbToType.getSelectedItem() == CurrencyEnum.REAL) {
@@ -78,10 +78,10 @@ public class ConverterCurrency extends Converter{
                 output = input * 0.94520729;
             } else if (cbToType.getSelectedItem() == CurrencyEnum.LIBRA) {
                 output = input * 0.83876177;
-            } else if (cbToType.getSelectedItem() == CurrencyEnum.YEN) {
-                output = input * 136.22885;
+            } else if (cbToType.getSelectedItem() == CurrencyEnum.PESO_ARGENTINO) {
+                output = input * 200.44822;
             } else {
-                output = input * 1322.2537;
+                output = input * 795.66031;
             }
         } else if(cbFromType.getSelectedItem() == CurrencyEnum.LIBRA) {
             if (cbToType.getSelectedItem() == CurrencyEnum.REAL) {
@@ -90,34 +90,34 @@ public class ConverterCurrency extends Converter{
                 output = input * 1.1267623;
             } else if (cbToType.getSelectedItem() == CurrencyEnum.DOLAR) {
                 output = input * 1.1921553;
-            } else if (cbToType.getSelectedItem() == CurrencyEnum.YEN) {
-                output = input * 162.42438;
+            } else if (cbToType.getSelectedItem() == CurrencyEnum.PESO_ARGENTINO) {
+                output = input * 242.18976;
             } else {
-                output = input * 1576.665;
+                output = input * 961.31824;
             }
-        } else if(cbFromType.getSelectedItem() == CurrencyEnum.YEN) {
+        } else if(cbFromType.getSelectedItem() == CurrencyEnum.PESO_ARGENTINO) {
             if (cbToType.getSelectedItem() == CurrencyEnum.REAL) {
-                output = input * 0.037719207;
+                output = input * 0.025829298;
             } else if (cbToType.getSelectedItem() == CurrencyEnum.EURO) {
-                output = input * 0.0069383654;
+                output = input * 0.0046763516;
             } else if (cbToType.getSelectedItem() == CurrencyEnum.DOLAR) {
-                output = input * 0.0073407472;
+                output = input * 0.0049913706;
             } else if (cbToType.getSelectedItem() == CurrencyEnum.LIBRA) {
-                output = input * 0.0061577868;
+                output = input * 0.0041285088;
             } else {
-                output = input * 9.7080198;
+                output = input * 3.9666584;
             }
         } else {
             if (cbToType.getSelectedItem() == CurrencyEnum.REAL) {
-                output = input * 0.003884434;
+                output = input * 0.0065143548;
             } else if (cbToType.getSelectedItem() == CurrencyEnum.EURO) {
-                output = input * 0.00071478827;
+                output = input * 0.0011804863;
             } else if (cbToType.getSelectedItem() == CurrencyEnum.DOLAR) {
-                output = input * 0.00075614085;
+                output = input * 0.0012606818;
             } else if (cbToType.getSelectedItem() == CurrencyEnum.LIBRA) {
-                output = input * 0.00063432039;
+                output = input * 0.0010421158;
             } else {
-                output = input * 0.10300666;
+                output = input * 0.2527137;
             }
         }
         lblOutput.setText(String.format("%.2f", output));
