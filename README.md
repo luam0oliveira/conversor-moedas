@@ -31,3 +31,7 @@ Codificar um conversor de moedas com utilizando interface gráfica.
 ### Extras
 - Ter outros conversores, como: temperatura, quilometragem, anos-luz, etc.
 - Programa tenha continuidade, podendo calcular mais de um valor por execução.
+
+## Preview do desafio
+
+![Preview do projeto](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2IyNjc1YWI4MzI4MGNjM2I3ZTk2ZDU0YTdiN2YzZTliODdlZTBiZCZjdD1n/fBqyV5hkyFimJwLlam/giphy.gif)
