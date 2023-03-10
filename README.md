@@ -8,7 +8,7 @@
 ## Sobre o desafio
 
 Foi um desafio desenvolvido durante a trilha 01 do curso [ONE](https://www.oracle.com/br/education/oracle-next-education/) (Oracle Next Education). Repositório base para o desafio: [Decodificador de texto](https://github.com/alura-challenges/challenge-one-conversor-br).  
-Para utilizar executar o programa no seu computador, é necessário ter o [Java](https://www.java.com/download/ie_manual.jsp) instalado e baixar [este arquivo](https://github.com/luam0oliveira/conversor-moedas/raw/main/conversor-moedas.jar). Depois do java instalado e o arquivo baixado, pode-se executar o arquivo e utilizar o programa.
+Para utilizar executar o programa no seu computador, é necessário ter o [Java](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) instalado e baixar [este arquivo](https://github.com/luam0oliveira/conversor-moedas/raw/main/conversor-moedas.jar). Depois do java instalado e o arquivo baixado, pode-se executar o arquivo e utilizar o programa.
 
 ## Instruções
 
